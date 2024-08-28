@@ -16,3 +16,8 @@ class DivansSpiderSpider(scrapy.Spider):
             }
 
 
+# запуск программы в терминале и сохранение результата в csv
+# scrapy crawl divans_spider -o result.csv -t csv
+
+# запуск программы в терминале и сохранение результата в json
+# scrapy crawl divans_spider -o result.json -t json
